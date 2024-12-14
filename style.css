@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a,
+nav ul li button {
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('selective-focus-metal-table-camera-equipment-generated-by-ai_188544-18411.avif') no-repeat center center/cover;
+    color: #d2eeca;
+    border-radius: 40px;
+    text-shadow: 7px 1px 5px #047e5f;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#about {
+    text-align: center;
+    padding: 300px;
+    background: url(Student\ Lens_20241214_094122_0000.png)center/cover;
+    border-radius: 40px;
+    height: 700px;
+    color: #ffffffe8;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px  #ffffff;
+    
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal .close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: #000;
+}
+
+.modal ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.modal ul li a {
+    color: #000;
+    text-decoration: none;
+}
